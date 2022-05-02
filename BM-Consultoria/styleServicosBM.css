@@ -1,0 +1,17 @@
+body { 
+    background-image:linear-gradient(to bottom, #B9EBAE, #82B876, #607A5B ) ;
+    background-attachment: fixed;   
+}
+h1{
+    width: 300px;
+    background-color: #607A5B;
+    border-radius: 15px;
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+}
+p{
+    background-color: white;
+    text-align: justify;
+    font-size: medium;
+}

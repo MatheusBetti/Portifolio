@@ -32,7 +32,6 @@ header{
     text-align: center;
     font-family: var(--fonte1);
     margin: auto;
-    
 }
 
 header > h1{
@@ -61,6 +60,7 @@ nav{
     opacity: 0.5;
     border-radius: 5px;
     color: var(--cor5);
+    transition-duration: 0.5s;
 }
 
 nav > a{

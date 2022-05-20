@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+/*=========== GERAL ============*/
+:root{
+    --font1: 'Sriracha', cursive;
+    --font2: 'Passion One', cursive;
+    --font3: Arial, Helvetica, sans-serif;
+}
+
+body, html{
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+section p{
+    font-size: 1.5em;
+    font-family: var(--font1);
+
+    margin-left: 2em;
+    margin-top: 3em;
+    margin-bottom: 4em;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+
+    left: 0;
+
+    padding: 20px;
+}
+
+header h1{
+    font-family: var(--font2);
+    font-size: 4.5em;
+}
+
+header p{
+    font-family: var(--font3);
+}
+
+#imgFlower{
+    background-image: url(../Projeto-Cordel/imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    margin-left: 0;
+
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.452);
+}
+
+#imgFlower .secondVerse{
+    background-color: rgba(0, 0, 0, 0.384);
+    color: white;
+
+}
+
+.secondVerse p{
+    padding-block: 15px;
+}
+
+#imgPapers{
+    background-image: url(../Projeto-Cordel/imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.452);
+}
+
+#imgPapers .fourthVerse{
+    background-color: rgba(0, 0, 0, 0.384);
+    color: white;
+}
+
+.fourthVerse p{
+    padding-block: 15px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+
+    text-align: center;
+    font-family: var(--font3);
+
+}
+
+footer p{
+    padding: 5px;
+    margin-bottom: 0;
+}
+

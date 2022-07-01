@@ -1,0 +1,30 @@
+@import './app/dist/scss/variables.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    font-family: roboto;
+    font-weight: 400;
+}
+
+ul{
+    list-style: none;
+}
+
+textarea:focus, input:focus, button{
+    outline: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+.container{
+    width: 350px;
+    margin: 50px auto;
+}
+
+body{
+    background-color: #E3E9FF;
+}

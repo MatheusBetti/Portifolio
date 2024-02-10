@@ -1,0 +1,23 @@
+.footer {
+    height: 5vh;
+    max-width: 100%;
+    background-color: #6278f7;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    align-items: center;
+    background-image: url(/public/imagens/fundo.png);
+}
+
+.footer .container{
+    display: flex;
+    gap: 48px;
+}
+
+.footer .imgLogo{
+    height: 100%;
+}
+
+.footer h4{
+    color: white;
+}
